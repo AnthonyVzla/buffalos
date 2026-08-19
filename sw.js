@@ -1,4 +1,4 @@
-const CACHE='brasa-norte-v1';
+const CACHE='buffalos-v1';
 const APP_SHELL=['./','./index.html','./manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL))));
 self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
