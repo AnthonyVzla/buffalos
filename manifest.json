@@ -1,0 +1,10 @@
+{
+  "name": "Brasa Norte | Cocina urbana",
+  "short_name": "Brasa Norte",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf7ef",
+  "theme_color": "#e85d2a",
+  "description": "Menu digital y pedidos de Brasa Norte.",
+  "icons": []
+}
